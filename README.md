@@ -52,13 +52,21 @@ python LM100MBTicketAutoUseLogin.py
 
 ### 2) チケット自動利用（LM100MBTicketAutoUseRun.py）
 
-1. 次を実行します。
+`--count`（または `-n`）で、繰り返し回数（=使用するチケット枚数）を指定できます。
+
+- 例: 5枚使う場合
 
 ```bash
-python LM100MBTicketAutoUseRun.py
+python LM100MBTicketAutoUseRun.py --count 5
 ```
 
-2. 保存済みのログイン状態を読み込み、チケット利用の一連操作を繰り返します。
+- 短縮形
+
+```bash
+python LM100MBTicketAutoUseRun.py -n 5
+```
+
+保存済みのログイン状態を読み込み、チケット利用の一連操作を指定回数分繰り返します。
 
 ---
 
